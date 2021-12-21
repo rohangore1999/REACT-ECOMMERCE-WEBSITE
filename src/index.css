@@ -1,13 +1,24 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family:  'Urbanist', sans-serif;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* to hide scroll bar of entire APP */
+/* ::-webkit-scrollbar {
+  display:none;
+} */
+
+::-webkit-scrollbar{
+  width: 9px;
+  background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 2px;
+  background-color: #a1a1a1; /*cursor's color*/
+  
+}
+::-webkit-scrollbar-track{
+  border-radius: 10px;
+  background-color: #cfcfcf;
 }
