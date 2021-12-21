@@ -139,6 +139,7 @@ const Container = styled.div``
 const Wrapper = styled.div`
     padding: 50px;
     display: flex;
+    margin-top: 2%;
     ${mobile({ padding: "10px", flexDirection: "column", marginTop:"10%" })}
 
 `

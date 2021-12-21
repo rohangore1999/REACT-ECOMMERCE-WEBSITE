@@ -9,12 +9,30 @@ import {
   Switch,
   Route
 } from "react-router-dom";
+import { useHistory } from 'react-router-dom/cjs/react-router-dom.min';
+import { useEffect } from 'react';
 
 
 function App() {
+
+  function ScrollToTop() {
+    const history = useHistory()
+    useEffect(() => {
+      const unlisten = history.listen((location, action) => {
+        if (action !== 'POP') {
+          window.scrollTo(0, 0)
+        }
+      })
+      return () => unlisten()
+    }, [])
+    return (null)
+  }
+
+
   return (
-    <div className="App" style={{overflow:"hidden"}}>
+    <div className="App" style={{ overflow: "hidden" }}>
       <Router>
+        <ScrollToTop />
         <Switch>
           <Route path="/" exact>
             <Home />

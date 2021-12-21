@@ -143,7 +143,7 @@ const Container = styled.div`
             left: 50%;
             width: 0;
             height: 2px;
-            border-bottom: 2px solid rgb(0, 0, 0);
+            border-bottom: 2px solid rgb(255, 255, 255);
         }
 
         a, a::after {
@@ -151,7 +151,7 @@ const Container = styled.div`
         }
 
         a:hover {
-            color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
         }
 
         a:hover::after {
