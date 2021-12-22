@@ -85,11 +85,11 @@ function Product() {
                 <InfoContainer>
                     <Title>{filteredData[0].name}</Title>
 
-                    <Desc>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nisi rem. Consequatur recusandae, minima exercitationem dignissimos magnam quo. Quae officiis, nam hic iusto nesciunt non aliquam accusantium. Inventore earum molestiae corrupti nihil!</Desc>
+                    <Desc>{filteredData[0].desc}</Desc>
 
                     <Price>{product.price} Rs</Price>
 
-                    <FilterContainer>
+                    {/* <FilterContainer>
                         <Filter>
                             <FilterTitle>Color</FilterTitle>
                             <FilterColor color="black" />
@@ -106,7 +106,7 @@ function Product() {
 
                             </FilterSize>
                         </Filter>
-                    </FilterContainer>
+                    </FilterContainer> */}
 
                     <AddContainer>
                         <AmountContainer>
@@ -183,45 +183,45 @@ const InfoContainer = styled.span`
 
 `
 
-const FilterContainer = styled.div`
-    width: 50%;
-    margin: 30px 0px;
-    display: flex;
-    justify-content: space-between;
-    ${mobile({ width: "100%" })}
+// const FilterContainer = styled.div`
+//     width: 50%;
+//     margin: 30px 0px;
+//     display: flex;
+//     justify-content: space-between;
+//     ${mobile({ width: "100%" })}
 
-`
-
-
-const Filter = styled.div`
-    display: flex;
-    align-items: center;
-`
+// `
 
 
-const FilterTitle = styled.span`
-    font-size: 20px;
-    font-weight: 200;
-`
+// const Filter = styled.div`
+//     display: flex;
+//     align-items: center;
+// `
 
 
-const FilterColor = styled.div`
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: ${props => props.color};
-    margin: 0px 5px;
-    cursor: pointer;
-`
+// const FilterTitle = styled.span`
+//     font-size: 20px;
+//     font-weight: 200;
+// `
 
 
-const FilterSize = styled.select`
-    margin-left: 10px;
-    padding: 5px;
-`
+// const FilterColor = styled.div`
+//     width: 20px;
+//     height: 20px;
+//     border-radius: 50%;
+//     background-color: ${props => props.color};
+//     margin: 0px 5px;
+//     cursor: pointer;
+// `
 
 
-const FilterSizeOption = styled.option``
+// const FilterSize = styled.select`
+//     margin-left: 10px;
+//     padding: 5px;
+// `
+
+
+// const FilterSizeOption = styled.option``
 
 
 const AddContainer = styled.div`
@@ -229,6 +229,7 @@ const AddContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 5%;
     ${mobile({ width: "100%" })}
 
 `

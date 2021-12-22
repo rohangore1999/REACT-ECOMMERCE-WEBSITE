@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    place-items: center;
+}
+
+.text-center{
+    text-align: center;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 430px) {
+    .heading {
+      font-size: 1.7rem;
+    }
+}
+
+.hr-line{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    color: whitesmoke;
+    margin: 0.5% auto;
+}
+
+
+.justify-content-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1%;
+}

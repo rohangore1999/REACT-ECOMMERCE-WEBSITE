@@ -20,6 +20,8 @@ import QuestionAnswerIcon from '@material-ui/icons/QuestionAnswer';
 import React, { useState, useEffect } from 'react';
 
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import CallIcon from '@material-ui/icons/Call';
+
 
 function App() {
 
@@ -49,7 +51,7 @@ function App() {
   }
 
   const toggleEmail = () => {
-    window.open('mailto:')
+    window.open('tel:919762228932')
     handleClose()
   }
 
@@ -57,7 +59,7 @@ function App() {
     const [state, setState] = useState(false)
 
   const actions = [
-    { icon: <EmailIcon onClick={toggleEmail} />, name: 'Email' },
+    { icon: <CallIcon onClick={toggleEmail} />, name: 'Call' },
     { icon: <WhatsAppIcon onClick={toggleWhatsapp} />, name: 'Whatsapp' },
   ];
 

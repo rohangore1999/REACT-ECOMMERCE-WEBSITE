@@ -6,7 +6,8 @@ import { mobile } from '../responsive';
 function CategoryItem({ item }) {
     return (
         <Container >
-            <Link to={`/products/${item.cat}`}>
+            {/* <Link to={`/products/${item.cat}`}> */}
+            <Link to="">
                 <Image src={item.img} />
                 <Info>
                     <Title>{item.title}</Title>

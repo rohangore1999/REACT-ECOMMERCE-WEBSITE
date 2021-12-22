@@ -7,8 +7,8 @@ function Footer() {
     return (
         <Container>
             <Left>
-                <Logo>PATIL'S FRUIT CENTER.</Logo>
-                <Desc>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit doloremque sapiente tempora, repellendus optio obcaecati quae ipsa numquam? Ab soluta accusamus quo ex cupiditate earum tenetur alias. Perferendis iusto neque tenetur consequuntur?</Desc>
+                <Logo>PATILS.</Logo>
+                <Desc>Our goal is to deliver you the fresh and best quality foods at cheapest rate ever. We have our quick delivery service availabe.</Desc>
 
                 <SocialContainer>
                     <SocialIcon color="3B5999">
@@ -40,10 +40,9 @@ function Footer() {
             <Right>
                 <Title>Contact</Title>
 
-                <ContactItem><Room style={{marginRight:"10px"}}/>Navi Posri, Mohopada</ContactItem>
+                <ContactItem><Room style={{marginRight:"10px"}}/>Near Pawan Bekari, New posari , Mohopada, PIN: 410222</ContactItem>
                 <ContactItem><Phone style={{marginRight:"10px"}}/>+91 9762228932</ContactItem>
-                <ContactItem><MailOutline style={{marginRight:"10px"}}/>vishalpatil@gmail.com</ContactItem>
-                <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
+                <ContactItem><MailOutline style={{marginRight:"10px"}}/>vishalj25patil@gmail.com</ContactItem>
             </Right>
 
         </Container>
@@ -93,7 +92,7 @@ const SocialIcon = styled.div`
 
 const Center = styled.div`
     flex:1;
-    padding: 20px;
+    display: none;
     ${mobile({ display: "none" })}
 
 `
@@ -119,6 +118,7 @@ const ListItem = styled.li`
 const Right = styled.div`
     flex:1;
     padding: 20px;
+    justify-content: flex-end;
     ${mobile({ backgroundColor: "#fff8f8" })}
 
 
@@ -130,8 +130,8 @@ const ContactItem = styled.div`
     align-items: center;
 `;
 
-const Payment = styled.img`
-    width: 50%;
-`;
+// const Payment = styled.img`
+//     width: 50%;
+// `;
 
 
