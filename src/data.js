@@ -8,6 +8,8 @@ import ft3 from './img/ft3.png'
 import ft4 from './img/ft4.png'
 import ft5 from './img/ft5.png'
 import ft6 from './img/ft6.png'
+import ft7 from './img/ft7.png'
+
 
 
 // sliders
@@ -63,9 +65,9 @@ export const categories = [
 export const popularProducts = [
     {
         id: 1,
-        img: ft1,
-        name: 'KIWI',
-        desc:"Kiwis are high in Vitamin C and dietary fiber and provide a variety of health benefits. This tart fruit can support heart health, digestive health, and immunity. The kiwi is a healthy choice of fruit and is rich with vitamins and antioxidants.",
+        img: ft7,
+        name: 'Banana',
+        desc:"Bananas are a good source of several vitamins and minerals, especially potassium, vitamin B6, and vitamin C. Potassium. Bananas are a good source of potassium. A diet high in potassium can lower blood pressure in people with elevated levels and benefits heart health.",
         price: 50,
         qty: 0
     },
@@ -82,7 +84,7 @@ export const popularProducts = [
         img: ft3,
         name: 'GRAPES',
         desc:"Studies have shown that resveratrol can help your body metabolize fatty acids, increase your energy level, and improve your overall metabolism, all of which can help with weight loss. Grapes also contain lots of flavonoids, a strong type of antioxidant that some studies show can help you maintain a healthy weight.",
-        price: 60,
+        price: 50,
         qty: 0
     },
     {
@@ -90,7 +92,7 @@ export const popularProducts = [
         img: ft4,
         name: 'APPLE',
         desc:"Apples are incredibly good for you, and eating them is linked to a lower risk of many major diseases, including diabetes and cancer. What's more, its soluble fiber content may promote weight loss and gut health. A medium apple equals 1.5 cups of fruit — which is 3/4 of the 2-cup daily recommendation for fruit.",
-        price: 80,
+        price: 150,
         qty: 0
     },
     {
@@ -98,7 +100,7 @@ export const popularProducts = [
         img: ft5,
         name: 'CHIKU',
         desc:"Being rich in nutrients, chikoo is a storehouse of Vitamin E, A and C, all of which are great for skin health and has amazing moisturising properties. The presence of antioxidants like ascorbic acid, polyphenols, and flavonoids help in reducing wrinkles and makes your skin plumper.",
-        price: 40,
+        price: 80,
         qty: 0
     },
     {
@@ -106,7 +108,7 @@ export const popularProducts = [
         img: ft6,
         name: 'ORANGE',
         desc:"Oranges are rich in antioxidants that work to eliminate free radicals, keeping skin healthy and free of cancer. Vitamin C and folate (Vitamin B9) improve blood flow to the skin, delivering nutrients, water and oxygen to the body's largest organ.",
-        price: 30,
+        price: 70,
         qty: 0
     }
 ]
